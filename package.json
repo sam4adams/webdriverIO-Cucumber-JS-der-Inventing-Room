@@ -4,12 +4,31 @@
   "description": "Basic setup of WebdriverIO and Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "author": "Sam Adams",
   "license": "ISC",
   "devDependencies": {
+    "@badisi/wdio-harness": "^2.0.3",
+    "@wdio/allure-reporter": "^8.10.4",
+    "@wdio/appium-service": "^8.10.4",
+    "@wdio/cli": "^8.10.4",
+    "@wdio/cucumber-framework": "^8.10.4",
+    "@wdio/local-runner": "^8.10.4",
+    "@wdio/spec-reporter": "^8.10.4",
+    "appium": "^1.22.3",
+    "chromedriver": "^113.0.0",
     "cucumber": "^6.0.7",
+    "geckodriver": "^4.0.0",
+    "msedgedriver": "^91.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-edgedriver-service": "^3.0.1",
+    "wdio-geckodriver-service": "^5.0.1",
+    "wdio-vscode-service": "^5.1.0",
+    "wdio-wait-for": "^3.0.4",
     "webdriverio": "^8.10.4"
   }
 }
